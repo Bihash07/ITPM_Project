@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/j2ee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>HotelManagementSystem</display-name>
+
+<servlet>
+		<servlet-name>insert</servlet-name>
+		<servlet-class>servlet.insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insert</servlet-name>
+		<url-pattern>/*insert</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>servlet.delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/*delete</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>servlet.update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/*update</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>search</servlet-name>
+		<servlet-class>servlet.search</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>search</servlet-name>
+		<url-pattern>/*search</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>calenderSearch</servlet-name>
+		<servlet-class>servlet.calenderSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>calenderSearch</servlet-name>
+		<url-pattern>/*calenderSearch</url-pattern>
+	</servlet-mapping>
+
+
+
+<servlet>
+		<servlet-name>calenderInsert</servlet-name>
+		<servlet-class>servlet.calenderInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>calenderInsert</servlet-name>
+		<url-pattern>/*calenderInsert</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/*LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Createpwd</servlet-name>
+		<servlet-class>servlet.Createpwd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Createpwd</servlet-name>
+		<url-pattern>/*Createpwd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>payment</servlet-name>
+		<servlet-class>servlet.payment</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>payment</servlet-name>
+		<url-pattern>/*payment</url-pattern>
+	</servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
