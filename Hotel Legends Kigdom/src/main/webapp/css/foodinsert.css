@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+.jumbotron{
+		/* The image used */
+  background-color: #1A4B74;
+
+  /* Half height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.button {
+  background-color: #0000FF; /* blue */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
