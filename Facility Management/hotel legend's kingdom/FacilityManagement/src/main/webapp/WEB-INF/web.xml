@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+     
+     
+      
+      <servlet>
+      		<servlet-name> OSsearch </servlet-name>
+      		<servlet-class> facility.SearchServlet </servlet-class>
+      </servlet>    
+         
+       <servlet-mapping>
+       		<servlet-name> OSsearch </servlet-name>
+       		<url-pattern> /OSsearch </url-pattern>
+       </servlet-mapping>
+         
+         
+         <servlet>
+      		<servlet-name> OSsportinsert </servlet-name>
+      		<servlet-class> facility.SportInsertServlet </servlet-class>
+      </servlet>    
+         
+       <servlet-mapping>
+       		<servlet-name> OSsportinsert </servlet-name>
+       		<url-pattern> /OSsportInsert </url-pattern>
+       </servlet-mapping>
+           
+         
+         
+          <servlet>
+      		<servlet-name> OSguideinsert </servlet-name>
+      		<servlet-class> facility.GuideInsertServlet </servlet-class>
+      </servlet>    
+         
+       <servlet-mapping>
+       		<servlet-name> OSguideinsert </servlet-name>
+       		<url-pattern> /OSGuidetInsert </url-pattern>
+       </servlet-mapping>
+           
+         
+       
+        <servlet>
+      		<servlet-name> feedback </servlet-name>
+      		<servlet-class> facility.Feedback </servlet-class>
+      </servlet>    
+         
+       <servlet-mapping>
+       		<servlet-name> feedback </servlet-name>
+       		<url-pattern> /feedback </url-pattern>
+       </servlet-mapping>
+       
+       
+       <servlet>
+      		<servlet-name> OSsportupdate </servlet-name>
+      		<servlet-class> facility.SportUpdateServlet </servlet-class>
+      </servlet>    
+         
+       <servlet-mapping>
+       		<servlet-name> OSsportupdate </servlet-name>
+       		<url-pattern> /OSupdate </url-pattern>
+       </servlet-mapping>
+       
+       
+         <servlet>
+      		<servlet-name> OSsportdelete </servlet-name>
+      		<servlet-class> facility.SportDeleteServlet </servlet-class>
+      </servlet>    
+         
+       <servlet-mapping>
+       		<servlet-name> OSsportdelete </servlet-name>
+       		<url-pattern> /OSdelete </url-pattern>
+       </servlet-mapping>
+         
+         
+         
+ 
+ </web-app>
